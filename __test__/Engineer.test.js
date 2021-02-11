@@ -4,11 +4,13 @@ test("Check engineer object", () => {
   expect(engineer.github).toEqual(expect.any(String));
   expect(engineer.github).toBeDefined();
 });
-test("Gets engineer role", () => {
-  const engineer = new Engineer(1, "fasika", "fasika@gmail.com");
-  expect(engineer.getGithub()).toBe(engineer.);
+test("Gets engineer github ", () => {
+  const engineer = new Engineer(1, "fasika", "fasika@gmail.com", "fasikaWalle");
+  expect(engineer.getGithub()).toEqual(
+    expect.stringContaining(engineer.github)
+  );
 });
 test("Gets engineer role", () => {
-  const engineer = new Engineer(1, "fasika", "fasika@gmail.com");
+  const engineer = new Engineer(1, "fasika", "fasika@gmail.com", "fasikaWalle");
   expect(engineer.getRole()).toBe(engineer.constructor.name);
 });
