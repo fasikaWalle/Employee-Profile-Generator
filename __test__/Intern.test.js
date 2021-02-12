@@ -7,11 +7,7 @@ test('Checks intern object',()=>{
 })
 test("Gets intern school", () => {
     const intern=new Intern(3,'fasika','fasika@gmail.com','Austin university of Managment')
-<<<<<<< HEAD
-    expect(intern.getSchool()).toBe(intern.school);
-=======
     expect(intern.getSchool()).toBe(intern.school)
->>>>>>> develop
   });
 
 test("Gets intern role", () => {
