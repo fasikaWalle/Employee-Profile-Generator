@@ -13,7 +13,7 @@ First you have to make sure that you have node js in your system if you don't ha
 - write npm install in the terminal and hit enter to install all the module dependencies that this application uses
 - Type node index.js to run the file
 - Enter the neccesary information about your employee and finally your HTML webpage file is generated in dist folder.
-- video link: [![Employee webpage Generator video]]( )
+- video link: [![Employee webpage Generator video]](https://drive.google.com/file/d/12_aU5rrJkbakcxT8YyrZ3cVJWslDxcj7/view)
 
 
  ## Licence

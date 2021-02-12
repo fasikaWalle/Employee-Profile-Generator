@@ -50,7 +50,7 @@ function engineerData(element) {
     <ul id="employee-info">
       <li>ID:<span>${element.getId()}</span></li>
       <li>Email:<span><a href="mailto: ${element.getEmail()}"> ${element.getEmail()}</a></span></li>
-       <li>GitHub:<span><a href="https://github.com/${element.github}/"target="_blank">${element.github}</a></span></li>
+       <li>GitHub:<span><a href="https://github.com/${element.github}/" target="_blank">${element.github}</a></span></li>
     </ul>
   </div>
   </div>
