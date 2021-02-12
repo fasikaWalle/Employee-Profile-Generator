@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato',sans-serif;
+}
+/*----header----*/
+header{
+    background-color:rgba(8, 16, 46, 0.9);
+};
+/*----section----*/
+
+.col{
+    box-shadow: 4px 2px 4px 4px #a39393;
+    background-color: #fff; 
+}
+
+ #employee-info{
+    list-style: none;
+    font-weight:600;
+    padding:1.3rem;
+    margin-bottom: 0;
+ }  
+
+ #employee-info li{
+     background-color: #fff;
+    border-bottom: 1px solid rgb(243, 243, 243); 
+     padding:0.8rem;
+    
+}
+#employee-info li span{
+    margin-left:10px;
+}
+ .card-body{
+   padding: 0;
+} 
+.employee-header{
+    padding:0.5rem;
+    background-color:rgba(50, 69, 180,0.9);
+}
+/*----link----*/
+a{
+     text-decoration: none;    
+ }  
+
+
+ .row{
+      justify-content: center;
+  }
+  
+  /*--media query---*/
+  @media (min-width: 768px){
+  .row-cols-md-3>* {
+      width: 28%;
+  }
+}
