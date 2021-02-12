@@ -13,21 +13,9 @@ First you have to make sure that you have node js in your system if you don't ha
 - write npm install in the terminal and hit enter to install all the module dependencies that this application uses
 - Type node index.js to run the file
 - Enter the neccesary information about your employee and finally your HTML webpage file is generated in dist folder.
-<<<<<<< HEAD
-<<<<<<< HEAD
 - video link: [![Employee webpage Generator video]](https://drive.google.com/file/d/12_aU5rrJkbakcxT8YyrZ3cVJWslDxcj7/view)
-=======
-- video link: [![Employee webpage Generator video]]( https://drive.google.com/file/d/12_aU5rrJkbakcxT8YyrZ3cVJWslDxcj7/view)
->>>>>>> develop
-=======
-- video link: [![Employee webpage Generator video]](https://drive.google.com/file/d/1y0RjdT8P1qeImk285hjfOc_Sr9PKv2kW/view)
->>>>>>> abdfafa1e15e3d0c64007131cfc229eb341bde46
-
-
  ## Licence
 This Licence belongs to Apache 
- 
-
 
 ## Features
 The feature of this application is validate user input based on the data type they provide. 
