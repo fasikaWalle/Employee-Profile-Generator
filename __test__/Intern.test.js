@@ -7,7 +7,7 @@ test('Checks intern object',()=>{
 })
 test("Gets intern school", () => {
     const intern=new Intern(3,'fasika','fasika@gmail.com','Austin university of Managment')
-    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school))
+    expect(intern.getSchool()).toBe(intern.school)
   });
 
 test("Gets intern role", () => {
