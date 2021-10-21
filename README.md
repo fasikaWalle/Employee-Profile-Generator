@@ -24,10 +24,7 @@ The feature of this application is validate user input based on the data type th
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 ## Tests
-`
-npm run test
-
-`
+`npm run test`
 
 ## Screenshot
 ![Employee](https://user-images.githubusercontent.com/73629983/107825302-7866ad80-6d48-11eb-8b49-783369c590ae.png)
